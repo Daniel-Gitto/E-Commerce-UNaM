@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +6,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+ /*Haciendo esto se ve la imagen completa de fondo*/
+    
+    /*background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("./components/Banner/imgs/Inicio4.jpg");*/
+  
+  
 }
 
 code {

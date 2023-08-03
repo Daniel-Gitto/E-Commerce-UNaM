@@ -1,0 +1,105 @@
+
+/* Estilos para el formulario de contacto */
+.Contact-form {
+    max-width: 500px;
+    margin: 2rem auto; /* Agrega un margen superior para bajar el contenido */
+    padding: 30px;
+    background-color: #e6fff3;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Contact-form h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .Contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Contact-form form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .Contact-form form input,
+  .Contact-form form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Aumenta el margen inferior para más espacio entre los elementos */
+    width: 100%;
+  }
+  
+  .Contact-form form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Contact-form form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el mensaje de éxito */
+  .success-message {
+    text-align: center;
+    margin-top: 20px; 
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  .social-icon a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #007bff;
+    font-size: 24px;
+  }
+  
+  .social-icon a:hover {
+    color: #0056b3;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Añade un espacio entre el formulario y los botones */
+  }
+  
+  .social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-button:hover {
+    background-color: #0056b3;
+  }

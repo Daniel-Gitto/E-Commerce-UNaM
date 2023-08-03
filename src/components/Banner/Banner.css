@@ -1,0 +1,31 @@
+
+.banner {
+  background-size: 65% 115% ; /* Cambiar a "cover" para ajustar el tamaño de la imagen */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("imgs/inicio7.png");
+  height: 50vh;
+  width: 100%;
+}
+
+
+
+.banner-container {
+  text-align: center;
+  padding: 10% 0;
+}
+
+/* Media Query para hacer el diseño responsivo en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .banner {
+    background-size: cover;
+    height: 30vh;
+  }
+
+  .banner-container {
+    padding: 5% 0;
+  }
+}
+
+
+ 

@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "name": "Notebook Asus ZEPHYRUS 14'",
+      "description": "Ryzen 7 4800 16GB SSD 512GB",
+      "price": 800000,
+      "img": "imag/rog.jpg"
+    },
+    
+    {
+      "id": 2,
+      "name": "Notebook Asus ZenBook 14'", 
+      "description":" INTEL I5 1135G7 8GB SSD 512GB",
+      "price": 500000,
+      "img": "imag/zenbook.jpg"
+    },
+  
+    {
+      "id": 3,
+      "name": "Notebook Asus vivobook 15,6'",
+      "description": "Intel I3 1115G4 8Gb SSD 256Gb",
+      "price": 270000,
+      "img": "imag/vivobook.jpg"
+      
+    },
+    
+    {
+      "id": 4,
+      "name": "PC Armada (Básica)",
+      "description": "Intel i5 SSD 500gb 8gb",
+      "price": 360000,
+      "img": "imag/pc.jpg"
+    },
+    {
+      "id": 5,
+      "name": "PC Armada (Diseño)",
+      "description": "Intel i7 SSD 500gb 16gb",
+      "price": 430000,
+      "img": "imag/pc.jpg"
+    },
+
+    {
+      "id": 6,
+      "name": "PC Armada (Gamer)",
+      "description": "Intel i7 SSD 500gb 32gb RTX 3060 6gb",
+      "price": 600000,
+      "img": "imag/pc.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pendrive Sandisk 16gb ",
+      "price": 3000,
+      "img": "imag/pendrive.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Pendrive Sandisk 32gb ",
+      "price": 4000,
+      "img": "imag/pendrive.jpg"
+    },
+    {
+      "id": 9,
+      "name": "SSD Adata 512gb ",
+      "price": 20000,
+      "img": "imag/ssd.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Monitor Samsung 22'",
+      "description": "75hz 5ms FHD",
+      "price": 82500,
+      "img": "imag/monitorsamsung.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Monitor Asus 24'",
+      "description": "5ms FHD",
+      "price": 90000,
+      "img": "imag/monitorasus.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Cargador Universal Notebook",
+      "price": 15000,
+      "img": "imag/cargador-universal.jpg"
+    }
+
+
+  ]
+  

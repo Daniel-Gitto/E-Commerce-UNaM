@@ -1,0 +1,144 @@
+.nav-container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #1b1b1b;
+}
+
+.nav_items a {
+  margin: 15px;
+  color: #1bcb7f;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.nav_logo {
+  font-weight: bold;
+  justify-self: start;
+  margin: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: aquamarine;
+}
+.nav-imag {
+  width: 120px;
+    height: 120px;
+    cursor: pointer;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.nav_toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav_items {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 20%;
+    
+    /*height: -webkit-fill-available;*/
+    transform: translateX(-100%);
+    transition: 0.3s ease all;
+  }
+
+  .nav_items.open {
+    transform: translateX(0) !important;
+  }
+
+  .nav_toggle {
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+  }
+
+  .nav_toggle span {
+    width: 30px;
+    height: 4px;
+    background: #1bcb7f;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+  }
+
+  .nav_toggle.open > span {
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+
+  .nav_toggle.open > span:nth-child(2) {
+    display: none;
+  }
+
+  .nav_toggle.open > span:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 1px);
+  }
+}
+
+.seeCarrito {
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.cart-items-total {
+  background-color: #f8f6f6;
+  color: white;
+  border-radius: 20%;
+  font-size: 8px;
+  padding: 2px 4px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Media Query para hacer el diseño responsivo en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .navbar-logo {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .seeCarrito {
+    font-size: 20px;
+  }
+
+  .cart-items-total {
+    font-size: 6px;
+    top: -6px;
+    right: -6px;
+  }
+}
