@@ -23,7 +23,7 @@ function ContactMe() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Aquí puedes enviar el formulario a través de una solicitud o realizar cualquier acción necesaria con los datos.
+    
     console.log(formData);
     
     setFormData({

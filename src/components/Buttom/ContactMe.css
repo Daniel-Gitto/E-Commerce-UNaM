@@ -2,7 +2,7 @@
 /* Estilos para el formulario de contacto */
 .Contact-form {
     max-width: 500px;
-    margin: 2rem auto; /* Agrega un margen superior para bajar el contenido */
+    margin: 2rem auto; 
     padding: 30px;
     background-color: #e6fff3;
     border-radius: 10px;
@@ -33,7 +33,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 20px; /* Aumenta el margen inferior para más espacio entre los elementos */
+    margin-bottom: 20px; 
     width: 100%;
   }
   
@@ -82,7 +82,7 @@
   .social-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* Añade un espacio entre el formulario y los botones */
+    margin-top: 20px; 
   }
   
   .social-button {

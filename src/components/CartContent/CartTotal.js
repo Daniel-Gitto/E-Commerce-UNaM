@@ -10,7 +10,7 @@ const CartTotal = () => {
   // Convertir el total a formato de separadores de miles y puntos decimales
   const priceTotal = total.toLocaleString();
   const handlePay = () => {
-    // Aquí puedes implementar la lógica para procesar el pago
+    
     alert(`Pagando total: $${priceTotal}`);
   };
 
