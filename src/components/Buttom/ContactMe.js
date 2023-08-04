@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 
 import "./ContactMe.css";
 import Navbar from '../Navbar/Navbar';
-
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
 function ContactMe() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -91,27 +93,27 @@ function ContactMe() {
       </div>
       <div className='social-icon'>
         <a className="social-icon" target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/danii-gitto-88430116a/">
-          <i className="fab fa-linkedin-in"></i>
+        <BsLinkedin />
         </a>
         <a className="social-icon" target= "_blank" rel="noreferrer"  href="https://github.com/Daniel-Gitto">
-          <i className="fab fa-github"></i>
+          <BsGithub />
         </a>
         <a className="social-icon" target="_blank"  rel="noreferrer" href="https://wa.me/5492634248008/">
-          <i className="fab fa-whatsapp"></i>
+          <BsWhatsapp />
         </a>
       </div>
+      {/*  Esto es para hacer un boton cuadrado con el nombre del boton 
 
       <div className='social-buttons'>
-        <button className='social-button' onClick={() => window.open("https://www.linkedin.com/in/danii-gitto-88430116a/", "_blank")}>
-          <i className="fab fa-linkedin-in"></i> LinkedIn
-        </button>
+        <button className="social-button" onClick={() => windows.open("https://www.linkedin.com/in/danii-gitto-88430116a", "_blank")}>
+        <i className=" fab fa-linkedin"></i> Linkedin
         <button className='social-button' onClick={() => window.open("https://github.com/Daniel-Gitto", "_blank")}>
           <i className="fab fa-github"></i> GitHub
         </button>
         <button className='social-button' onClick={() => window.open("https://wa.me/5492634248008/", "_blank")}>
           <i className="fab fa-whatsapp"></i> WhatsApp
         </button>
-      </div>
+      </div> */}
     
     
     </>

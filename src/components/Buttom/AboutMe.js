@@ -11,12 +11,13 @@ function AboutMe() {
     <div className="aboutme">
 
       <div className="about-title">
-        <h1>¡Bienvenidos, a nuestra Web Misiotrónica</h1>
+        <h1>"Misiotrónica: Tecnología de Excelencia"</h1>
       </div>
       <div className='parrafo'>
-        <p>Somos una Tienda apasionada en la Tecnología con experiencia en Ventas y servicios de Insumos Informáticos y Electrónicos. Nuestro principal objetivo es lograr un crecimiento sostenible a lo largo del tiempo. Buscamos aumentar nuestros ingresos y expandir nuestra presencia en el mercado de manera estratégica, manteniendo un enfoque en la rentabilidad y la calidad de nuestros productos/servicios</p>
-        <p>Tenemos Experiencia de más de 10 años en el rubro, lo que nos ha permitido desarrollar habilidades sólidas en el Rubro de la Electrónica Brindando la mejor solución y servicio para que adquieran un producto de gran calidad.</p>
-        <p>Si tienes alguna pregunta o deseas consultarnos sobre algún producto, no dudes en ponerte en contacto con nosotros.</p>
+        <p>"Somos una apasionada tienda especializada en tecnología, con una sólida experiencia en ventas y servicios de insumos informáticos y electrónicos. Nuestro principal objetivo es lograr un crecimiento sostenible a lo largo del tiempo, buscando aumentar nuestros ingresos y expandir nuestra presencia en el mercado de manera estratégica, manteniendo siempre un enfoque en la rentabilidad y la calidad de nuestros productos y servicios.</p>
+        <p>Contamos con más de una década de experiencia en el rubro, lo que nos ha permitido desarrollar habilidades sólidas en el campo de la electrónica, brindando soluciones y servicios de primera calidad. Nuestro compromiso es asegurar que nuestros clientes adquieran productos de excelencia, adaptados a sus necesidades y deseos.</p>
+        <p>Estamos aquí para ayudarte en cualquier consulta o duda que puedas tener sobre nuestros productos. No dudes en ponerte en contacto con nosotros para obtener más información o asesoramiento personalizado.</p>
+        <p>Gracias por considerarnos como tu proveedor de confianza en el mundo de la tecnología. Esperamos poder brindarte una experiencia excepcional en cada interacción que tengas con nuestra tienda."</p>
       </div>
 
     </div>

@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { dataContext } from "../Context/DataContext";
 import "./Navbar.css";
-import logo from "../Navbar/logo/logo1.1.png";
+import logo from "../Navbar/logo/logo2.png";
 
 const Navbar = () => {
   const { cart } = useContext(dataContext);
