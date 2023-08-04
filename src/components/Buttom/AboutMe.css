@@ -2,7 +2,7 @@
     max-width: 1000px;
     max-height: 1000px;
     margin: 1rem auto;
-    padding: 35px;
+    padding: 33px;
     background-color: #e6fff3;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@
 .aboutme , .parrafo p {
     font-size: 18px;
     line-height: 1.5;
-    color: #8d2626;
+    color: #812424;
     margin-bottom: 10px;
   }
   .contact-container{
