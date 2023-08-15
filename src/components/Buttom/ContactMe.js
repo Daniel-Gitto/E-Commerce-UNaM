@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import "./ContactMe.css";
 import Navbar from '../Navbar/Navbar';
 import { BsLinkedin } from 'react-icons/bs';
@@ -12,7 +11,6 @@ function ContactMe() {
     email: '',
     message: '',
   });
-
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData({
@@ -20,12 +18,9 @@ function ContactMe() {
       [name]: value,
     });
   };
-
   const handleSubmit = (event) => {
     event.preventDefault();
-    
     console.log(formData);
-    
     setFormData({
       firstName: '',
       lastName: '',
@@ -33,15 +28,10 @@ function ContactMe() {
       message: '',
     });
   };
-
   return (
     <>
     <Navbar />
-    
 
-
-
-    
     <div className='Contact-form'>
       <h2>Contacto</h2>
       <form onSubmit={handleSubmit}>
@@ -105,17 +95,15 @@ function ContactMe() {
       {/*  Esto es para hacer un boton cuadrado con el nombre del boton 
 
       <div className='social-buttons'>
-        <button className="social-button" onClick={() => windows.open("https://www.linkedin.com/in/danii-gitto-88430116a", "_blank")}>
+        <button className="social-button" onClick={() => windows.open(href="https://www.linkedin.com/in/danii-gitto-88430116a", "_blank")}>
         <i className=" fab fa-linkedin"></i> Linkedin
-        <button className='social-button' onClick={() => window.open("https://github.com/Daniel-Gitto", "_blank")}>
+        <button className='social-button' onClick={() => window.open(href="https://github.com/Daniel-Gitto", "_blank")}>
           <i className="fab fa-github"></i> GitHub
         </button>
-        <button className='social-button' onClick={() => window.open("https://wa.me/5492634248008/", "_blank")}>
+        <button className='social-button' onClick={() => window.open(href="https://wa.me/5492634248008/", "_blank")}>
           <i className="fab fa-whatsapp"></i> WhatsApp
         </button>
       </div> */}
-    
-    
     </>
   );
 }

@@ -1,8 +1,8 @@
 .aboutme {
     max-width: 1000px;
-    max-height: 1000px;
+    max-height: 1200px;
     margin: 1rem auto;
-    padding: 33px;
+    padding: 40px;
     background-color: #e6fff3;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -43,15 +43,10 @@
   margin-top: 1rem;
   margin-left: 25%;
 }
-
-
 .contact-container .contact-button:hover {
   background-color: #0056b3;
   align-items: center;
 }
-
-
-  
   /* Estilos específicos para enlaces */
   a {
     color: #007bff;
@@ -66,7 +61,7 @@
   /* Media Query para hacer el diseño responsivo en pantallas más pequeñas */
 @media screen and (max-width: 768px) {
   .aboutme {
-    padding: 25px; /* Reducir el padding en pantallas más pequeñas */
+    padding: 26px; /* Reducir el padding en pantallas más pequeñas */
   }
 
   h1 {

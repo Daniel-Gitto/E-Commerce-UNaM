@@ -6,7 +6,6 @@
       "price": 800000,
       "img": "imag/rog.jpg"
     },
-    
     {
       "id": 2,
       "name": "Notebook Asus ZenBook 14'", 
@@ -14,7 +13,6 @@
       "price": 500000,
       "img": "imag/zenbook.jpg"
     },
-  
     {
       "id": 3,
       "name": "Notebook Asus vivobook 15,6'",
@@ -23,7 +21,6 @@
       "img": "imag/vivobook.jpg"
       
     },
-    
     {
       "id": 4,
       "name": "PC Armada (Básica)",
@@ -38,7 +35,6 @@
       "price": 430000,
       "img": "imag/pc.jpg"
     },
-
     {
       "id": 6,
       "name": "PC Armada (Gamer)",
@@ -84,7 +80,5 @@
       "price": 15000,
       "img": "imag/cargador-universal.jpg"
     }
-
-
   ]
   

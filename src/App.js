@@ -6,8 +6,6 @@ import AboutMe from "./components/Buttom/AboutMe";
 import ContactMe from "./components/Buttom/ContactMe";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage.js"; 
- 
-
 
 function App() {
   return  (
@@ -15,7 +13,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          
           <Route path="/cart" element={<CartContent />}/>
           <Route path='/about' element={<AboutMe />}/>
           <Route path='/contact' element={<ContactMe />}/>
@@ -23,10 +20,6 @@ function App() {
         </Routes>
       </BrowserRouter>
     </DataProvider>
-     
-   
   );
-
 }
-
 export default App;

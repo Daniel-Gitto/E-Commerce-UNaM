@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./AboutMe.css"
 import Navbar from '../Navbar/Navbar';
-
-
 function AboutMe() {
   return (
     <>
@@ -19,14 +17,11 @@ function AboutMe() {
         <p>Estamos aquí para ayudarte en cualquier consulta o duda que puedas tener sobre nuestros productos. No dudes en ponerte en contacto con nosotros para obtener más información o asesoramiento personalizado.</p>
         <p>Gracias por considerarnos como tu proveedor de confianza en el mundo de la tecnología. Esperamos poder brindarte una experiencia excepcional en cada interacción que tengas con nuestra tienda."</p>
       </div>
-
     </div>
 
     <div className='contact-container'>
       <Link to="/contact">
-
       <button className='contact-button'>Contacto</button>
-
       </Link>
     </div>
       </>

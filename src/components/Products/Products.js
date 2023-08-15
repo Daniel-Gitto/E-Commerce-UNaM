@@ -6,11 +6,9 @@ import "./Products.css";
 const Products = () => {
   const { data, cart, setCart } = useContext(dataContext);
   const [searchTerm, setSearchTerm] = useState(""); // Estado para el término de búsqueda
-
   const buyProducts = (product) => {
     // Buscar si el producto ya está en el carrito
     const existingProduct = cart.find(item => item.id === product.id);
-
     if (existingProduct) {
       // Si ya está en el carrito, actualiza su cantidad sumándole 1
       const updatedCart = cart.map(item =>
@@ -22,12 +20,10 @@ const Products = () => {
       setCart([...cart, { ...product, quantity: 1 }]);
     }
   };
-
   // Filtrar los productos según el término de búsqueda
   const filteredProducts = data.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
-
   return (
     <div className="products-container">
       <div className="search-container">
@@ -35,8 +31,7 @@ const Products = () => {
           type="text"
           placeholder="Buscar productos..."
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)} // Actualizamos el término de búsqueda al escribir
-          
+          onChange={(e) => setSearchTerm(e.target.value)} // Actualizamos el término de búsqueda al escribir      
         />
       </div>
       <div className="product-card-container">
