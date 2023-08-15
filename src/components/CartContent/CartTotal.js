@@ -12,7 +12,7 @@ const CartTotal = () => {
   const handlePay = () => {
     
     alert(`Pagando total: $${priceTotal}`);
-    clearCart(); //Limpia el carrito cuando se paga el producto
+    clearCart(); //Se limpia el carrito de compras cuando se paga
   };
 
   return ( 
